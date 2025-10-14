@@ -728,7 +728,7 @@
 			<iframe
 				width="100%"
 				height="100%"
-				src="https://www.youtube.com/?goodTubeProxy=1"
+				src="https://en.wikipedia.org/wiki/Chuck_Norris?goodTubeProxy=1"
 				frameborder="0"
 				scrolling="yes"
 				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
