@@ -1,21 +1,20 @@
 // ==UserScript==
-// @name         GoodTube
+// @name         GoodTube (custom)
 // @namespace    http://tampermonkey.net/
 // @version      3.001
 // @description  Removes 100% of Youtube ads.
 // @author       GoodTube
-// @updateURL    https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
-// @downloadURL  https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
+// @updateURL    https://raw.githubusercontent.com/Deutschi/goodtube/main/goodtube.user.js
+// @downloadURL  https://raw.githubusercontent.com/Deutschi/goodtube/main/goodtube.user.js
 // @match        *://m.youtube.com/*
 // @match        *://www.youtube.com/*
 // @match        *://youtube.com/*
-// @match        *://*.wikipedia.org/*
 // @icon         https://cdn-icons-png.flaticon.com/256/1384/1384060.png
 // @run-at       document-start
 // ==/UserScript==
 
 // This now automatically loads the latest version. This means that you will never need to update manually again :)
-// To view the full source code go here: https://github.com/goodtube4u/goodtube/blob/main/goodtube.js
+// To view the full source code go here: https://raw.githubusercontent.com/Deutschi/goodtube/main/goodtube.js
 
 (function () {
 	'use strict';
@@ -57,7 +56,7 @@
 		loadAttempts++;
 
 		// Load GoodTube
-		fetch('https://raw.githubusercontent.com/goodtube4u/goodtube/refs/heads/main/goodtube.js')
+		fetch('https://raw.githubusercontent.com/Deutschi/goodtube/main/goodtube.js')
 			// Success
 			.then(response => response.text())
 			.then(data => {
