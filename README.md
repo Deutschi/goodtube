@@ -29,7 +29,7 @@ Now scroll down and click `Details` next to the Tampermonkey extension. Then scr
 <br><br>
 **3. Install GoodTube**<br>
 Visit this link and press `Install` on the page that opens up:<br>
-https://github.com/goodtube4u/goodtube/raw/refs/heads/main/goodtube.user.js
+https://raw.githubusercontent.com/Deutschi/goodtube/main/goodtube.user.js
 <br><br>
 **4. Restart your browser**
 <br><br>
@@ -92,3 +92,7 @@ This project has been made entirely by myself, as just one developer. Countless 
 
 You can make a donation here:<br>
 https://tiptopjar.com/goodtube
+
+
+## Changes in Fork compared to original version
+**The original script uses obfuscated tracking and sends info to a 3rd party website. This is not disclosed anywhere in the readme. So I forked this project and removed any findings of that in order to have a much safer experience.
